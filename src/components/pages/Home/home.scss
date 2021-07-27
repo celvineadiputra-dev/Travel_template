@@ -1,0 +1,60 @@
+$orange : #DF6951;
+$dark-blue : #181E4B;
+$soft-gray : #5E6282;
+$yellow : #F1A501;
+$white : #ffffff;
+$soft-red : #DF6951;
+
+.topHeadline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: $orange;
+}
+.headline{
+    font-weight: bold;
+    font-size: 74px;
+    font-family: 'Volkhov', serif;
+    color: $dark-blue;
+    display: block;
+    line-height: 1;
+}
+.desc{
+    color: $soft-gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 85%;
+}
+.btn-yellow{
+    background-color: $yellow !important;
+    color: $white !important;
+    width: 170px;
+    height: 60px;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    border-radius: 10px !important;
+}
+.circle{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    margin: 0 12px 0 12px;
+    &.circle-red{
+        background-color: $soft-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+.playDemo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.ml-25{
+    margin-left: 2.5rem;
+}
+.min-h-100{
+    min-height: 90vh;
+}

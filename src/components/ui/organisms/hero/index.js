@@ -2,6 +2,7 @@ import React from 'react'
 import "./home.scss"
 
 import Hero from "../../../../assets/images/hero.png"
+import Play from "../../../../assets/icon/play.svg"
 
 const index = () => {
     return (
@@ -20,7 +21,9 @@ const index = () => {
                     <div className="d-flex">
                         <button className="btn btn-yellow">find our more</button>
                         <div className="d-flex justify-content-center align-items-center ml-25">
-                            <div className="circle circle-red">P</div>
+                            <div className="circle circle-red">
+                                <img src={Play} alt="play_button"/>
+                            </div>
                             <div className="playDemo">Play Demo</div>
                         </div>
                     </div>

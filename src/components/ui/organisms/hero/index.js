@@ -6,7 +6,7 @@ import Play from "../../../../assets/icon/play.svg"
 
 const index = () => {
     return (
-        <div className="container d-flex min-h-100 justify-content-center">
+        <div className="container d-flex min-h-100 justify-content-center align-items-center">
             <div className="row">
                 <div className="col-sm-12 col-md-6">
                     <h4 className="topHeadline my-4">Best Destinations around the world</h4>

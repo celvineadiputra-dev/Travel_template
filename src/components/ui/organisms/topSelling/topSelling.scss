@@ -13,3 +13,11 @@ $dark-purple : #14183E;
     font-size: 50px;
     color: $dark-purple;
 }
+.decoreCurl{
+    position: absolute;
+    max-height: 256px;
+    max-width: 100px;
+    right: 0;
+    z-index: -1;
+    bottom: 60px;
+}

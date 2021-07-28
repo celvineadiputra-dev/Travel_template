@@ -14,7 +14,7 @@ const index = () => {
         <Navbar />
         <Hero />
       </div>
-      <Category/>
+      <Category className="mb-5"/>
       <TopSelling/>
     </>
   );

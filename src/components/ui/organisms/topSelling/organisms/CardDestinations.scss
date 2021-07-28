@@ -1,0 +1,35 @@
+$text-color : #5E6282;
+.cardDestination_wrapper{
+    position: relative;
+    .imageCity{
+        width: 314px;
+        height: 457px;
+        position: relative;
+    }
+    .cardDestination_card{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        min-height: 130px;
+        width: 314px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 0 0 24px 24px;
+        color: $text-color;
+        font-family: 'Poppins', sans-serif;
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            .title{
+                font-weight: 500;
+                font-size: 18px;
+            }
+            .price{
+                font-weight: 500;
+                font: 18px;
+            }
+        }
+    }
+}

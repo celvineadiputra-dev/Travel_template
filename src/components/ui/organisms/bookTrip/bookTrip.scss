@@ -1,0 +1,16 @@
+$soft-gray : #5E6282;
+$dark-purple : #14183E;
+
+.subHeadline{
+    color: $soft-gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.headline{
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 59px;
+    color: $dark-purple;
+    line-height: 1.3;
+}

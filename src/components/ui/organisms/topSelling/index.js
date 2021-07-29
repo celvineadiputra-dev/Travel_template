@@ -10,7 +10,7 @@ import DecoreCurl from "../../../../assets/images/Decore_curl.svg"
 
 const index = () => {
     return (
-        <div className="container">
+        <div className="container mt-6">
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h4 className="topSelling">Top Selling</h4>
